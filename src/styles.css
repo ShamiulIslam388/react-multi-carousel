@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000;
+}
+
+.slider {
+  margin: 0 10px;
+  overflow: "hidden";
+  padding: 2rem 0;
+}
+
+.slider img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.carousel-button-group {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel-button-group button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.carousel-button-group button.disable {
+  cursor: not-allowed;
+}
